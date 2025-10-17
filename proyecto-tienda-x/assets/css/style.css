@@ -1,0 +1,257 @@
+/* Tema oscuro completo */
+:root {
+    --primary-color: #3b82f6;
+    --primary-dark: #2563eb;
+    --secondary-color: #64748b;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    --info-color: #06b6d4;
+    --light-color: #f8fafc;
+    --dark-color: #0f172a;
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-card: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --border-color: #334155;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Aplicar tema oscuro a todo el body */
+body {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 76px;
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    min-height: 100vh;
+}
+
+/* Asegurar que todo el texto sea visible */
+h1, h2, h3, h4, h5, h6,
+p, span, div, 
+.card-title, .card-text,
+.lead, .text-muted {
+    color: var(--text-primary) !important;
+}
+
+.text-muted {
+    color: var(--text-secondary) !important;
+}
+
+/* Hero Section con tema oscuro */
+.hero-section {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    color: white !important;
+    padding: 4rem 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px var(--shadow-color);
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.05"><polygon points="0,0 1000,50 1000,100 0,100"/></svg>') no-repeat bottom;
+    background-size: cover;
+}
+
+/* Botones de navegación simples */
+.nav-buttons-simple {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.nav-btn-simple {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-btn-simple:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.6);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn-catalogo {
+    background: linear-gradient(135deg, var(--success-color), #059669);
+    box-shadow: 0 5px 15px rgba(16, 185, 129, 0.4);
+}
+
+.nav-btn-catalogo:hover {
+    background: linear-gradient(135deg, #059669, #047857);
+    box-shadow: 0 10px 25px rgba(16, 185, 129, 0.6);
+}
+
+.nav-btn-ventajas {
+    background: linear-gradient(135deg, var(--warning-color), #d97706);
+    box-shadow: 0 5px 15px rgba(245, 158, 11, 0.4);
+}
+
+.nav-btn-ventajas:hover {
+    background: linear-gradient(135deg, #d97706, #b45309);
+    box-shadow: 0 10px 25px rgba(245, 158, 11, 0.6);
+}
+
+.nav-btn-contacto {
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    box-shadow: 0 5px 15px rgba(139, 92, 246, 0.4);
+}
+
+.nav-btn-contacto:hover {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    box-shadow: 0 10px 25px rgba(139, 92, 246, 0.6);
+}
+
+/* Botones generales */
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--primary-dark), #1d4ed8);
+    transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Tarjetas de productos en tema oscuro */
+.product-card {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 8px 25px var(--shadow-color);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.product-image {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-secondary);
+}
+
+.product-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.price {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* Secciones con fondos oscuros */
+.bg-light {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color);
+}
+
+.text-muted {
+    color: var(--text-secondary) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+/* Iconos tecnológicos */
+.tech-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 50%;
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--primary-color);
+}
+
+/* Navbar en tema oscuro */
+.navbar-dark.bg-primary {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%) !important;
+}
+
+/* Footer en tema oscuro */
+footer {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+    border-top: 1px solid var(--border-color);
+}
+
+/* CTA Section */
+.py-5.text-center.bg-primary.text-white.rounded-4 {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%) !important;
+}
+
+/* Badges */
+.badge {
+    font-weight: 600;
+}
+
+/* Mejoras responsive */
+@media (max-width: 768px) {
+    .nav-buttons-simple {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-btn-simple {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+    
+    .hero-section {
+        padding: 3rem 1rem;
+    }
+}

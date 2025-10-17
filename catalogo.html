@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo Completo | Tienda Tecnológica</title>
+    <meta name="description" content="Explora nuestro catálogo completo de productos tecnológicos: laptops gaming, audífonos, teclados, monitores y más.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Nuestro archivo CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <main class="container my-5 pt-4">
+        <!-- Hero Catálogo -->
+        <section class="hero-section text-center rounded-4 shadow mb-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-4 fw-bold mb-3">Catálogo Completo</h1>
+                    <p class="lead mb-4">Explora nuestra amplia gama de productos tecnológicos</p>
+                    
+                    <!-- Barra de búsqueda -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="input-group input-group-lg">
+                                <input type="text" class="form-control" placeholder="Buscar productos..." id="searchInput">
+                                <button class="btn btn-light" type="button">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filtros -->
+        <section class="mb-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-wrap gap-3 justify-content-center">
+                        <button class="btn btn-outline-primary active" data-filter="all">Todos</button>
+                        <button class="btn btn-outline-primary" data-filter="laptop">Laptops</button>
+                        <button class="btn btn-outline-primary" data-filter="audio">Audio</button>
+                        <button class="btn btn-outline-primary" data-filter="periferico">Periféricos</button>
+                        <button class="btn btn-outline-primary" data-filter="monitor">Monitores</button>
+                        <button class="btn btn-outline-primary" data-filter="almacenamiento">Almacenamiento</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid de Productos (usa el mismo código de index.html pero expandido) -->
+        <section class="py-4">
+            <div class="row g-4" id="productGrid">
+                <!-- Los productos se cargarán aquí con JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/catalogo.js"></script>
+
+    <!-- Grid de Productos -->
+<section class="py-4">
+    <div class="row g-4" id="productGrid">
+        <!-- Los productos se cargarán aquí con JavaScript -->
+    </div>
+</section>
+
+<!-- Scripts al final del body -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/catalogo.js"></script>  <!-- ¡IMPORTANTE! -->
+
+</body>
+</html>

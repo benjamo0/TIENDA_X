@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda Tecnológica | Inicio - Lo último en tecnología</title>
+    <meta name="description" content="Bienvenido a Tienda Tecnológica. Descubre lo último en tecnología: PCs gaming, audífonos premium, teclados mecánicos y más.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Nuestro archivo CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <main class="container my-4">
+        <!-- Hero Section -->
+        <section class="hero-section text-center rounded-4 shadow">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-4 fw-bold mb-3">tienda electronica</h1>
+                    <p class="lead mb-4">Descubre lo último en tecnología: PCs gaming, audífonos premium, teclados mecánicos y más.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="catalogo.html" class="btn btn-light btn-lg px-4 gap-3 fw-bold">
+                            <i class="bi bi-grid-3x3-gap"></i> Ver Catálogo
+                        </a>
+                        <a href="contacto.html" class="btn btn-outline-light btn-lg px-4">
+                            <i class="bi bi-headset"></i> Soporte
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Botones de Navegación como en la imagen -->
+        <section class="my-5">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h2 class="display-5 fw-bold text-primary">Navegación Rápida</h2>
+                    <p class="lead text-muted">Accede directamente a lo que necesitas</p>
+                </div>
+            </div>
+
+            <div class="row g-3 justify-content-center">
+                <div class="col-auto">
+                    <a href="catalogo.html" class="btn btn-primary btn-lg">
+                        <i class="bi bi-grid-3x3-gap me-2"></i>Catálogo
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="ventajas.html" class="btn btn-success btn-lg">
+                        <i class="bi bi-star me-2"></i>Ventajas
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="contacto.html" class="btn btn-info btn-lg">
+                        <i class="bi bi-chat-dots me-2"></i>Contacto
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Ventajas Resumen -->
+        <section class="py-5">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h2 class="display-5 fw-bold text-primary">¿Por qué elegirnos?</h2>
+                    <p class="lead text-muted">Las mejores condiciones para nuestros clientes</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center p-4 bg-light rounded-3 shadow-sm h-100">
+                        <div class="tech-icon">
+                            <i class="bi bi-truck text-primary"></i>
+                        </div>
+                        <h4 class="fw-bold">Envío Gratis</h4>
+                        <p class="text-muted">Envío gratuito en compras superiores a $200.000. Recibe tu pedido en 24-48 horas.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="text-center p-4 bg-light rounded-3 shadow-sm h-100">
+                        <div class="tech-icon">
+                            <i class="bi bi-shield-check text-success"></i>
+                        </div>
+                        <h4 class="fw-bold">Garantía Extendida</h4>
+                        <p class="text-muted">Todos nuestros productos incluyen garantía de 12 a 24 meses. Soporte técnico incluido.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="text-center p-4 bg-light rounded-3 shadow-sm h-100">
+                        <div class="tech-icon">
+                            <i class="bi bi-arrow-repeat text-warning"></i>
+                        </div>
+                        <h4 class="fw-bold">30 Días Devolución</h4>
+                        <p class="text-muted">Si no estás satisfecho, devuelve tu producto en 30 días sin complicaciones.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="ventajas.html" class="btn btn-outline-primary btn-lg">
+                    <i class="bi bi-plus-circle me-2"></i>Ver todas las ventajas
+                </a>
+            </div>
+        </section>
+
+        <!-- Productos Destacados - CON TODAS LAS IMÁGENES -->
+        <section class="py-5">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h2 class="display-5 fw-bold text-primary">Productos Destacados</h2>
+                    <p class="lead text-muted">Los productos más populares de nuestra tienda</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Producto 1 - Laptop Gaming -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card border-0 shadow-sm h-100">
+                        <div class="position-relative">
+                            <div class="product-image rounded-top">
+                                <img src="https://media.falabella.com/falabellaCL/17116449_01/w=800,h=800,fit=pad" 
+                                     alt="Laptop Gaming RYZEN 7 con RTX 4060, 16GB RAM, 1TB SSD y pantalla 144Hz" 
+                                     class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-success bg-opacity-90">Nuevo</span>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-warning text-dark bg-opacity-90">Gaming</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Laptop Gaming RYZEN 7</h5>
+                            <p class="card-text text-muted flex-grow-1">RTX 4060, 16GB RAM, 1TB SSD, 144Hz. Ideal para gaming y streaming.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <div>
+                                    <span class="price fw-bold">$1.299.990</span>
+                                    <small class="text-success d-block">En stock</small>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#productoModal" data-producto="laptop">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm">
+                                        <i class="bi bi-cart-plus"></i> Agregar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 - Audífonos Inalámbricos -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card border-0 shadow-sm h-100">
+                        <div class="position-relative">
+                            <div class="product-image rounded-top">
+                                <img src="https://www.sony.cl/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF" 
+                                     alt="Audífonos Sony WH-1000XM5 con cancelación de ruido premium y 30 horas de batería" 
+                                     class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-danger bg-opacity-90">Oferta</span>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-info bg-opacity-90">Wireless</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Audífonos Sony WH-1000XM5</h5>
+                            <p class="card-text text-muted flex-grow-1">Cancelación de ruido premium, 30h batería, calidad de sonido excepcional.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <div>
+                                    <span class="price fw-bold">$299.990</span>
+                                    <small class="text-muted"><s>$399.990</s></small>
+                                    <small class="text-success d-block">Últimas unidades</small>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#productoModal" data-producto="audifonos">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm">
+                                        <i class="bi bi-cart-plus"></i> Agregar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 - Teclado Mecánico -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card border-0 shadow-sm h-100">
+                        <div class="position-relative">
+                            <div class="product-image rounded-top">
+                                <img src="https://assets2.razerzone.com/images/pnx.assets/f83991a174978c3f88c089758ea9fa3c/blackwidow-v3-tenkeyless-usp1-mobile-v2.jpg" 
+                                     alt="Teclado Mecánico Razer BlackWidow con switches verdes e iluminación RGB Chroma" 
+                                     class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-primary bg-opacity-90">RGB</span>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-dark bg-opacity-90">Mecánico</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Teclado Mecánico Razer BlackWidow</h5>
+                            <p class="card-text text-muted flex-grow-1">Switches verdes, iluminación RGB Chroma, construcción durable.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <div>
+                                    <span class="price fw-bold">$89.990</span>
+                                    <small class="text-success d-block">En stock</small>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#productoModal" data-producto="teclado">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm">
+                                        <i class="bi bi-cart-plus"></i> Agregar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 4 - Monitor 4K -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card border-0 shadow-sm h-100">
+                        <div class="position-relative">
+                            <div class="product-image rounded-top">
+                                <img src="https://assets.pcfactory.cl/public/foto/53606/1_1000.jpg?t=1758629277039" 
+                                     alt="Monitor Gaming 27 pulgadas 4K con panel IPS, HDR400 y frecuencia 144Hz" 
+                                     class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-success bg-opacity-90">4K</span>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-warning text-dark bg-opacity-90">144Hz</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Monitor Gaming 27" 4K</h5>
+                            <p class="card-text text-muted flex-grow-1">IPS panel, HDR400, FreeSync Premium, tiempo de respuesta 1ms.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <div>
+                                    <span class="price fw-bold">$459.990</span>
+                                    <small class="text-success d-block">En stock</small>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#productoModal" data-producto="monitor">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm">
+                                        <i class="bi bi-cart-plus"></i> Agregar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 5 - Mouse Gaming -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card border-0 shadow-sm h-100">
+                        <div class="position-relative">
+                            <div class="product-image rounded-top">
+                                <img src="https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/0/9/097855158024-01.jpg" 
+                                     alt="Mouse Logitech G Pro X inalámbrico con sensor HERO 25K y 70 horas de batería" 
+                                     class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-danger bg-opacity-90">Wireless</span>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-primary bg-opacity-90">RGB</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Mouse Logitech G Pro X</h5>
+                            <p class="card-text text-muted flex-grow-1">Sensor HERO 25K, ligero (63g), Lightsync RGB, 70h batería.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <div>
+                                    <span class="price fw-bold">$64.990</span>
+                                    <small class="text-warning d-block">Pocas unidades</small>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#productoModal" data-producto="mouse">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm">
+                                        <i class="bi bi-cart-plus"></i> Agregar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 6 - SSD NVMe -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card border-0 shadow-sm h-100">
+                        <div class="position-relative">
+                            <div class="product-image rounded-top">
+                                <img src="https://m.media-amazon.com/images/I/61JkTXrgYxS._AC_SL1500_.jpg" 
+                                     alt="SSD Samsung 980 Pro 2TB NVMe con velocidades de hasta 7000MB/s" 
+                                     class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-success bg-opacity-90">NVMe</span>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-info bg-opacity-90">2TB</span>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">SSD Samsung 980 Pro 2TB</h5>
+                            <p class="card-text text-muted flex-grow-1">Velocidades hasta 7000MB/s, ideal para gaming y trabajo profesional.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <div>
+                                    <span class="price fw-bold">$129.990</span>
+                                    <small class="text-success d-block">En stock</small>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#productoModal" data-producto="ssd">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm">
+                                        <i class="bi bi-cart-plus"></i> Agregar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="catalogo.html" class="btn btn-primary btn-lg">
+                    <i class="bi bi-grid-3x3-gap me-2"></i>Ver catálogo completo
+                </a>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="py-5 text-center bg-primary text-white rounded-4">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-6 fw-bold mb-3">¿Listo para mejorar tu setup?</h2>
+                    <p class="lead mb-4">Contáctanos y te ayudaremos a encontrar el producto perfecto para tus necesidades.</p>
+                    <a href="contacto.html" class="btn btn-light btn-lg px-4">
+                        <i class="bi bi-chat-dots me-2"></i>Contactar Ahora
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para detalles de producto -->
+    <div class="modal fade" id="productoModal" tabindex="-1" aria-labelledby="productoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productoModalLabel">Detalles del Producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img id="modalImagen" src="" class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 id="modalTitulo" class="fw-bold"></h4>
+                            <p id="modalDescripcion" class="text-muted"></p>
+                            <div class="mb-3">
+                                <span id="modalPrecio" class="h4 fw-bold text-primary"></span>
+                                <span id="modalPrecioAnterior" class="text-muted ms-2"></span>
+                            </div>
+                            <div id="modalEspecificaciones" class="mb-3">
+                                <!-- Las especificaciones se cargarán aquí -->
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary">
+                                    <i class="bi bi-cart-plus me-2"></i>Agregar al Carrito
+                                </button>
+                                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                    Seguir Explorando
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        // Modal para detalles de producto
+        document.addEventListener('DOMContentLoaded', function() {
+            const productoModal = document.getElementById('productoModal');
+            
+            if (productoModal) {
+                productoModal.addEventListener('show.bs.modal', function(event) {
+                    const button = event.relatedTarget;
+                    const producto = button.getAttribute('data-producto');
+                    
+                    // Datos de productos
+                    const productos = {
+                        laptop: {
+                            titulo: 'Laptop Gaming RYZEN 7',
+                            descripcion: 'RTX 4060, 16GB RAM, 1TB SSD, 144Hz. Ideal para gaming y streaming.',
+                            precio: '$1.299.990',
+                            precioAnterior: '',
+                            imagen: 'https://media.falabella.com/falabellaCL/17116449_01/w=800,h=800,fit=pad',
+                            especificaciones: [
+                                'Procesador: AMD Ryzen 7 6800H',
+                                'Tarjeta gráfica: NVIDIA GeForce RTX 4060 8GB',
+                                'Memoria RAM: 16GB DDR5',
+                                'Almacenamiento: 1TB SSD NVMe',
+                                'Pantalla: 15.6" IPS 144Hz',
+                                'Sistema operativo: Windows 11 Home'
+                            ]
+                        },
+                        audifonos: {
+                            titulo: 'Audífonos Sony WH-1000XM5',
+                            descripcion: 'Cancelación de ruido premium, 30h batería, calidad de sonido excepcional.',
+                            precio: '$299.990',
+                            precioAnterior: '$399.990',
+                            imagen: 'https://www.sony.cl/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF',
+                            especificaciones: [
+                                'Cancelación de ruido: Procesador V1 HD',
+                                'Batería: Hasta 30 horas',
+                                'Carga rápida: 3 minutos = 3 horas',
+                                'Conectividad: Bluetooth 5.2',
+                                'Peso: 250g',
+                                'Incluye: Estuche de carga y cable USB-C'
+                            ]
+                        },
+                        teclado: {
+                            titulo: 'Teclado Mecánico Razer BlackWidow',
+                            descripcion: 'Switches verdes, iluminación RGB Chroma, construcción durable.',
+                            precio: '$89.990',
+                            precioAnterior: '',
+                            imagen: 'https://assets2.razerzone.com/images/pnx.assets/f83991a174978c3f88c089758ea9fa3c/blackwidow-v3-tenkeyless-usp1-mobile-v2.jpg',
+                            especificaciones: [
+                                'Switches: Razer Green Clicky',
+                                'Iluminación: Razer Chroma RGB',
+                                'Construcción: Aluminio resistente',
+                                'Teclas: Anti-ghosting, N-key rollover',
+                                'Conexión: USB-C',
+                                'Garantía: 2 años'
+                            ]
+                        },
+                        monitor: {
+                            titulo: 'Monitor Gaming 27" 4K',
+                            descripcion: 'IPS panel, HDR400, FreeSync Premium, tiempo de respuesta 1ms.',
+                            precio: '$459.990',
+                            precioAnterior: '',
+                            imagen: 'https://assets.pcfactory.cl/public/foto/53606/1_1000.jpg?t=1758629277039',
+                            especificaciones: [
+                                'Tamaño: 27 pulgadas',
+                                'Resolución: 4K UHD (3840x2160)',
+                                'Panel: IPS',
+                                'Frecuencia: 144Hz',
+                                'Tiempo respuesta: 1ms GTG',
+                                'Tecnologías: HDR400, FreeSync Premium'
+                            ]
+                        },
+                        mouse: {
+                            titulo: 'Mouse Logitech G Pro X',
+                            descripcion: 'Sensor HERO 25K, ligero (63g), Lightsync RGB, 70h batería.',
+                            precio: '$64.990',
+                            precioAnterior: '',
+                            imagen: 'https://www.weplay.cl/pub/media/catalog/product/cache/3f1b140c3c9f36fbf6b01dffb521c246/0/9/097855158024-01.jpg',
+                            especificaciones: [
+                                'Sensor: HERO 25K DPI',
+                                'Peso: 63g',
+                                'Batería: 70 horas',
+                                'Conectividad: Lightspeed Wireless',
+                                'Botones: Programables',
+                                'Garantía: 2 años'
+                            ]
+                        },
+                        ssd: {
+                            titulo: 'SSD Samsung 980 Pro 2TB',
+                            descripcion: 'Velocidades hasta 7000MB/s, ideal para gaming y trabajo profesional.',
+                            precio: '$129.990',
+                            precioAnterior: '',
+                            imagen: 'https://m.media-amazon.com/images/I/61JkTXrgYxS._AC_SL1500_.jpg',
+                            especificaciones: [
+                                'Capacidad: 2TB',
+                                'Interfaz: PCIe 4.0 NVMe',
+                                'Lectura: 7,000 MB/s',
+                                'Escritura: 5,100 MB/s',
+                                'Garantía: 5 años',
+                                'Incluye: Software de gestión'
+                            ]
+                        }
+                    };
+                    
+                    const productoData = productos[producto];
+                    
+                    if (productoData) {
+                        document.getElementById('modalTitulo').textContent = productoData.titulo;
+                        document.getElementById('modalDescripcion').textContent = productoData.descripcion;
+                        document.getElementById('modalPrecio').textContent = productoData.precio;
+                        document.getElementById('modalImagen').src = productoData.imagen;
+                        document.getElementById('modalImagen').alt = productoData.titulo;
+                        
+                        // Precio anterior (si existe)
+                        const precioAnterior = document.getElementById('modalPrecioAnterior');
+                        if (productoData.precioAnterior) {
+                            precioAnterior.innerHTML = `<s>${productoData.precioAnterior}</s>`;
+                        } else {
+                            precioAnterior.innerHTML = '';
+                        }
+                        
+                        // Especificaciones
+                        const especificaciones = document.getElementById('modalEspecificaciones');
+                        especificaciones.innerHTML = '<h6>Especificaciones:</h6><ul class="list-unstyled"></ul>';
+                        const lista = especificaciones.querySelector('ul');
+                        
+                        productoData.especificaciones.forEach(espec => {
+                            const li = document.createElement('li');
+                            li.innerHTML = `<i class="bi bi-check-circle text-success me-2"></i>${espec}`;
+                            lista.appendChild(li);
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
